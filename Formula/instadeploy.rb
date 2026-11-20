@@ -3,28 +3,28 @@
 class Instadeploy < Formula
   desc "Instant, agent-native deploys that keep working when CI is down"
   homepage "https://github.com/djabiridrissou/instadeploy-releases"
-  version "0.6.3"
+  version "0.6.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/djabiridrissou/instadeploy-releases/releases/download/v#{version}/instadeploy_#{version}_darwin_arm64.tar.gz"
-      sha256 "bf1a424837d3d63b89eef59f46872ffbe3c3ad7b2908c321a158c32f992e9289"
+      sha256 "fd2123adb0c897256e7dbf0a0331183708d9e14db81fc8075150e119a0ee02f1"
     end
     on_intel do
       url "https://github.com/djabiridrissou/instadeploy-releases/releases/download/v#{version}/instadeploy_#{version}_darwin_amd64.tar.gz"
-      sha256 "2263db19db5a0533d3defcdd3fe2b2be8c8fe1942d04bc33596de2860ab3b90b"
+      sha256 "ae6b99b4417e249c3a88f1fd8d45b42276efb14db54fa0ecd41fae43323eb55f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/djabiridrissou/instadeploy-releases/releases/download/v#{version}/instadeploy_#{version}_linux_arm64.tar.gz"
-      sha256 "3981c21b4d7cd70712d7335ca95b4dc6ee7e7e1e74e08a58c0cdb64288419981"
+      sha256 "f6a9bd111abb6e5576f166028cecce98671ef0212385cd142386bd255ffe30d1"
     end
     on_intel do
       url "https://github.com/djabiridrissou/instadeploy-releases/releases/download/v#{version}/instadeploy_#{version}_linux_amd64.tar.gz"
-      sha256 "494d2b3530a7a73f221c09e2bff139b08dfcbfbb805a487078a384bfa6696881"
+      sha256 "22c116490de1c807a29d8d094a64580581468b5f5ae5dbbfd75c5441a3d40a89"
     end
   end
 
